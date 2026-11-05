@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2026-10-31T06:37:15.499Z",
+    "elapsedTime": "157 ms",
+    "systemInfo": {
+      "platform": "win32",
+      "release": "10.0.19044",
+      "cpuArch": "x64",
+      "cpuInfo": "Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz",
+      "totalMemory": 8325382144,
+      "hostname": "X505-11"
+    },
+    "filePath": "e:\\ZJ-S00224\\crystal\\crystal.cpp",
+    "fileContent": "#include <bits/stdc++.h>\r\nusing namespace std;\r\ntemplate <typename T> void ckmn(T& x, T y) { (y < x) && (x = y); }\r\ntemplate <typename T> void ckmx(T& x, T y) { (y > x) && (x = y); }\r\nusing ll = long long;\r\nconst int N = 5e5;\r\nint n;\r\nll m, a[N + 5], pre[N + 5];\r\nint main() {\r\n  ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);\r\n  cin >> n >> m;\r\n  for (int i = 1; i <= n; i++) cin >> a[i];\r\n  sort(a + 1, a + n + 1);\r\n  for (int i = 1; i <= n; i++) pre[i] = pre[i - 1] + a[i];\r\n  int ans = 0;\r\n  for (int i = 1, j = 1; i <= n; i++) {\r\n    while (j < i && (1ll * a[i] * (i - j + 1) - (pre[i] - pre[j - 1])) > m) ++j;\r\n    ckmx(ans, i - j + 1);\r\n  }\r\n  cout << ans << '\\n';\r\n  return 0;\r\n} // g++ crystal.cpp -o crystal -std=c++14 -O2 -static -Wall -Wextra",
+    "commandLineOutput": ";cd D\u0007Set-Location: Cannot find path 'C:\\Users\\stu\\D' because it does not exist.\r\n;Cwd=C:\\x5cUsers\\x5cstu\u0007PS C:\\Users\\stu> "
+  },
+  {
+    "timestamp": "2026-10-31T06:37:22.431Z",
+    "elapsedTime": "67 ms",
+    "systemInfo": {
+      "platform": "win32",
+      "release": "10.0.19044",
+      "cpuArch": "x64",
+      "cpuInfo": "Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz",
+      "totalMemory": 8325382144,
+      "hostname": "X505-11"
+    },
+    "filePath": "e:\\ZJ-S00224\\crystal\\crystal.cpp",
+    "fileContent": "#include <bits/stdc++.h>\r\nusing namespace std;\r\ntemplate <typename T> void ckmn(T& x, T y) { (y < x) && (x = y); }\r\ntemplate <typename T> void ckmx(T& x, T y) { (y > x) && (x = y); }\r\nusing ll = long long;\r\nconst int N = 5e5;\r\nint n;\r\nll m, a[N + 5], pre[N + 5];\r\nint main() {\r\n  ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);\r\n  cin >> n >> m;\r\n  for (int i = 1; i <= n; i++) cin >> a[i];\r\n  sort(a + 1, a + n + 1);\r\n  for (int i = 1; i <= n; i++) pre[i] = pre[i - 1] + a[i];\r\n  int ans = 0;\r\n  for (int i = 1, j = 1; i <= n; i++) {\r\n    while (j < i && (1ll * a[i] * (i - j + 1) - (pre[i] - pre[j - 1])) > m) ++j;\r\n    ckmx(ans, i - j + 1);\r\n  }\r\n  cout << ans << '\\n';\r\n  return 0;\r\n} // g++ crystal.cpp -o crystal -std=c++14 -O2 -static -Wall -Wextra",
+    "commandLineOutput": ";cd ..\u0007;Cwd=C:\\x5cUsers\u0007PS C:\\Users> "
+  },
+  {
+    "timestamp": "2026-10-31T06:37:23.599Z",
+    "elapsedTime": "67 ms",
+    "systemInfo": {
+      "platform": "win32",
+      "release": "10.0.19044",
+      "cpuArch": "x64",
+      "cpuInfo": "Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz",
+      "totalMemory": 8325382144,
+      "hostname": "X505-11"
+    },
+    "filePath": "e:\\ZJ-S00224\\crystal\\crystal.cpp",
+    "fileContent": "#include <bits/stdc++.h>\r\nusing namespace std;\r\ntemplate <typename T> void ckmn(T& x, T y) { (y < x) && (x = y); }\r\ntemplate <typename T> void ckmx(T& x, T y) { (y > x) && (x = y); }\r\nusing ll = long long;\r\nconst int N = 5e5;\r\nint n;\r\nll m, a[N + 5], pre[N + 5];\r\nint main() {\r\n  ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);\r\n  cin >> n >> m;\r\n  for (int i = 1; i <= n; i++) cin >> a[i];\r\n  sort(a + 1, a + n + 1);\r\n  for (int i = 1; i <= n; i++) pre[i] = pre[i - 1] + a[i];\r\n  int ans = 0;\r\n  for (int i = 1, j = 1; i <= n; i++) {\r\n    while (j < i && (1ll * a[i] * (i - j + 1) - (pre[i] - pre[j - 1])) > m) ++j;\r\n    ckmx(ans, i - j + 1);\r\n  }\r\n  cout << ans << '\\n';\r\n  return 0;\r\n} // g++ crystal.cpp -o crystal -std=c++14 -O2 -static -Wall -Wextra",
+    "commandLineOutput": ";cd ..\u0007;Cwd=C:\\x5c\u0007PS C:\\> "
+  },
+  {
+    "timestamp": "2026-10-31T06:37:25.598Z",
+    "elapsedTime": "67 ms",
+    "systemInfo": {
+      "platform": "win32",
+      "release": "10.0.19044",
+      "cpuArch": "x64",
+      "cpuInfo": "Intel(R) Core(TM) i5-10505 CPU @ 3.20GHz",
+      "totalMemory": 8325382144,
+      "hostname": "X505-11"
+    },
+    "filePath": "e:\\ZJ-S00224\\crystal\\crystal.cpp",
+    "fileContent": "#include <bits/stdc++.h>\r\nusing namespace std;\r\ntemplate <typename T> void ckmn(T& x, T y) { (y < x) && (x = y); }\r\ntemplate <typename T> void ckmx(T& x, T y) { (y > x) && (x = y); }\r\nusing ll = long long;\r\nconst int N = 5e5;\r\nint n;\r\nll m, a[N + 5], pre[N + 5];\r\nint main() {\r\n  ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);\r\n  cin >> n >> m;\r\n  for (int i = 1; i <= n; i++) cin >> a[i];\r\n  sort(a + 1, a + n + 1);\r\n  for (int i = 1; i <= n; i++) pre[i] = pre[i - 1] + a[i];\r\n  int ans = 0;\r\n  for (int i = 1, j = 1; i <= n; i++) {\r\n    while (j < i && (1ll * a[i] * (i - j + 1) - (pre[i] - pre[j - 1])) > m) ++j;\r\n    ckmx(ans, i - j + 1);\r\n  }\r\n  cout << ans << '\\n';\r\n  return 0;\r\n} // g++ crystal.cpp -o crystal -std=c++14 -O2 -static -Wall -Wextra",
+    "commandLineOutput": ";cd D:/\u0007;Cwd=D:\\x5c\u0007PS D:\\> "
+  }
+]
