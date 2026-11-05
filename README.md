@@ -26,13 +26,13 @@
 当前移动硬盘上的工作区只展开了浙江 S 组选手代码与浙江官方原件，其余代码保存在本地 Git 对象中。需要展开例如江苏代码时，在仓库目录执行：
 
 ```sh
-git sparse-checkout add --no-cone '/JS/'
+git sparse-checkout add '/JS/'
 ```
 
 需要展开浙江 J 组选手代码时：
 
 ```sh
-git sparse-checkout add --no-cone '/ZJ/J/选手代码/'
+git sparse-checkout add '/ZJ/J/选手代码/'
 ```
 
 展开前请留意移动硬盘的剩余空间；文件数量很多，当前文件系统的小文件会占用较多空间。
