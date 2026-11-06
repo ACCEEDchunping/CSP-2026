@@ -12,6 +12,7 @@
 | 湖南 HN | HN/J | HN/S |
 | 江苏 JS | JS/J | JS/S |
 | 辽宁 LN | — | LN/S |
+| 四川 SC | — | SC/S |
 | 山东 SD | — | SD/S |
 | 陕西 SN | SN/J | SN/S |
 | 天津 TJ | TJ/J | TJ/S |
